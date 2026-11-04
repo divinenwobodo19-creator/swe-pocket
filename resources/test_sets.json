@@ -1,0 +1,2316 @@
+[
+ {
+  "instance_id": "fastapi_15661",
+  "repo": "fastapi/fastapi",
+  "base_commit": "ee22a4b8ca46dcce26c8c183afc4992a888d8be2",
+  "graph_key": "fastapi_ee22a4b8ca46dcce26c8c183afc4992a888d8be2",
+  "fail_to_pass": [
+   "test_bump_version",
+   "test_update_version_file",
+   "test_update_version_file_requires_newer_version",
+   "test_update_release_notes",
+   "test_update_release_notes_rejects_existing_version",
+   "test_get_release_notes_body_with_dated_heading",
+   "test_get_release_notes_body_with_plain_heading",
+   "test_get_release_notes_body_allows_non_version_h2_content",
+   "test_get_release_notes_body_requires_version_section",
+   "test_get_release_notes_body_requires_non_empty_section",
+   "test_cli_updates_configured_files",
+   "test_cli_accepts_env_vars",
+   "test_cli_prints_current_version",
+   "test_cli_prints_release_notes"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_prepare_release.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_15588",
+  "repo": "fastapi/fastapi",
+  "base_commit": "cb83b83dcf78eab4ea17d504db5abcda705fbdc4",
+  "graph_key": "fastapi_cb83b83dcf78eab4ea17d504db5abcda705fbdc4",
+  "fail_to_pass": [
+   "test_server_sent_event_single_line_fields_reject_newlines"
+  ],
+  "pass_to_pass": [
+   "test_server_sent_event_negative_retry_rejected"
+  ],
+  "files": [
+   "tests/test_sse.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_15589",
+  "repo": "fastapi/fastapi",
+  "base_commit": "22b02e26f9e8c7e32bd8266e2b0ebe8bb3a0db2b",
+  "graph_key": "fastapi_22b02e26f9e8c7e32bd8266e2b0ebe8bb3a0db2b",
+  "fail_to_pass": [
+   "test_header_model_prefers_hyphenated_header_with_convert_underscores",
+   "test_header_model_rejects_underscore_header_with_convert_underscores"
+  ],
+  "pass_to_pass": [
+   "test_query_pass_extra_list",
+   "test_cookie_pass_extra_list"
+  ],
+  "files": [
+   "tests/test_query_cookie_header_model_extra_params.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_15030",
+  "repo": "fastapi/fastapi",
+  "base_commit": "48d58ae3b6ef4ded5a4794618c00345667256d98",
+  "graph_key": "fastapi_48d58ae3b6ef4ded5a4794618c00345667256d98",
+  "fail_to_pass": [
+   "test_async_generator_with_model",
+   "test_sync_generator_with_model",
+   "test_async_generator_no_annotation",
+   "test_sync_generator_no_annotation",
+   "test_dict_items",
+   "test_post_method_sse",
+   "test_sse_events_with_fields",
+   "test_mixed_plain_and_sse_events",
+   "test_string_data_json_encoded",
+   "test_server_sent_event_null_id_rejected",
+   "test_server_sent_event_negative_retry_rejected",
+   "test_server_sent_event_float_retry_rejected",
+   "test_raw_data_sent_without_json_encoding",
+   "test_data_and_raw_data_mutually_exclusive",
+   "test_sse_on_router_included_in_app",
+   "test_keepalive_ping_async",
+   "test_keepalive_ping_sync",
+   "test_no_keepalive_when_fast",
+   "test_stream_items",
+   "test_openapi_schema",
+   "test_stream_logs",
+   "test_stream_all_items",
+   "test_resume_from_last_event_id",
+   "test_resume_from_last_item",
+   "test_stream_chat"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_sse.py",
+   "tests/test_tutorial/test_server_sent_events/test_tutorial001.py",
+   "tests/test_tutorial/test_server_sent_events/test_tutorial002.py",
+   "tests/test_tutorial/test_server_sent_events/test_tutorial003.py",
+   "tests/test_tutorial/test_server_sent_events/test_tutorial004.py",
+   "tests/test_tutorial/test_server_sent_events/test_tutorial005.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14962",
+  "repo": "fastapi/fastapi",
+  "base_commit": "1e78a36b7310003f0ff634627d8a7bc53c6ccdee",
+  "graph_key": "fastapi_1e78a36b7310003f0ff634627d8a7bc53c6ccdee",
+  "fail_to_pass": [
+   "test_default_response_class_skips_json_dumps",
+   "test_explicit_response_class_uses_json_dumps",
+   "test_get_custom_response",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_dump_json_fast_path.py",
+   "tests/test_tutorial/test_custom_response/test_tutorial001.py",
+   "tests/test_tutorial/test_custom_response/test_tutorial010.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_15280",
+  "repo": "fastapi/fastapi",
+  "base_commit": "6ee87478d821171139264cd9cd17cbd2232934ce",
+  "graph_key": "fastapi_6ee87478d821171139264cd9cd17cbd2232934ce",
+  "fail_to_pass": [
+   "test_vibe_raises"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_vibe.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14964",
+  "repo": "fastapi/fastapi",
+  "base_commit": "bc06e4296d588f39f38c7ac2fc96d3913c565962",
+  "graph_key": "fastapi_bc06e4296d588f39f38c7ac2fc96d3913c565962",
+  "fail_to_pass": [
+   "test_orjson_response_returns_correct_data",
+   "test_orjson_response_emits_deprecation_warning",
+   "test_ujson_response_returns_correct_data",
+   "test_ujson_response_emits_deprecation_warning"
+  ],
+  "pass_to_pass": [
+   "test_orjson_non_str_keys",
+   "test_get_custom_response",
+   "test_openapi_schema"
+  ],
+  "files": [
+   "tests/test_deprecated_responses.py",
+   "tests/test_orjson_response_class.py",
+   "tests/test_tutorial/test_custom_response/test_tutorial001.py",
+   "tests/test_tutorial/test_custom_response/test_tutorial001b.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_15023",
+  "repo": "fastapi/fastapi",
+  "base_commit": "c0836dc1b7f4ba91e9563c8c4ccd0ebe655bc914",
+  "graph_key": "fastapi_c0836dc1b7f4ba91e9563c8c4ccd0ebe655bc914",
+  "fail_to_pass": [],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_tutorial/test_stream_data/test_tutorial002.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14986",
+  "repo": "fastapi/fastapi",
+  "base_commit": "2f9c914d440e99fe8b62646b51e4d24c5bcd858b",
+  "graph_key": "fastapi_2f9c914d440e99fe8b62646b51e4d24c5bcd858b",
+  "fail_to_pass": [
+   "test_root_path_does_not_persist_across_requests",
+   "test_multiple_different_root_paths_do_not_accumulate",
+   "test_legitimate_root_path_still_appears",
+   "test_configured_servers_not_mutated",
+   "test_init_oauth_html_chars_are_escaped",
+   "test_swagger_ui_parameters_html_chars_are_escaped",
+   "test_normal_init_oauth_still_works"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_openapi_cache_root_path.py",
+   "tests/test_swagger_ui_escape.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14978",
+  "repo": "fastapi/fastapi",
+  "base_commit": "94a1ee749e63591e6e275b726a66e07a25f6c407",
+  "graph_key": "fastapi_94a1ee749e63591e6e275b726a66e07a25f6c407",
+  "fail_to_pass": [
+   "test_default_strict_rejects_no_content_type",
+   "test_default_strict_accepts_json_content_type",
+   "test_lax_accepts_no_content_type",
+   "test_lax_accepts_json_content_type",
+   "test_strict_inner_on_lax_app_rejects_no_content_type",
+   "test_default_inner_inherits_lax_from_app",
+   "test_strict_inner_accepts_json_content_type",
+   "test_default_inner_accepts_json_content_type",
+   "test_lax_outer_on_strict_app_accepts_no_content_type",
+   "test_strict_inner_on_lax_outer_rejects_no_content_type",
+   "test_lax_outer_accepts_json_content_type",
+   "test_strict_inner_on_lax_outer_accepts_json_content_type",
+   "test_lax_router_on_strict_app_accepts_no_content_type",
+   "test_strict_router_on_strict_app_rejects_no_content_type",
+   "test_default_router_inherits_strict_from_app",
+   "test_lax_router_accepts_json_content_type",
+   "test_strict_router_accepts_json_content_type",
+   "test_default_router_accepts_json_content_type",
+   "test_no_content_type_json",
+   "test_lax_post_without_content_type_is_parsed_as_json",
+   "test_lax_post_with_json_content_type",
+   "test_lax_post_with_text_plain_is_still_rejected"
+  ],
+  "pass_to_pass": [
+   "test_wrong_headers"
+  ],
+  "files": [
+   "tests/test_strict_content_type_app_level.py",
+   "tests/test_strict_content_type_nested.py",
+   "tests/test_strict_content_type_router_level.py",
+   "tests/test_tutorial/test_body/test_tutorial001.py",
+   "tests/test_tutorial/test_strict_content_type/test_tutorial001.py"
+  ]
+ },
+ {
+  "instance_id": "requests_7505",
+  "repo": "psf/requests",
+  "base_commit": "6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6",
+  "graph_key": "requests_6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6",
+  "fail_to_pass": [
+   "test_post_getattr_proxy_read_only"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_requests.py"
+  ]
+ },
+ {
+  "instance_id": "requests_7502",
+  "repo": "psf/requests",
+  "base_commit": "661970d171d9c3e12e4c789c4768db647d8c4da0",
+  "graph_key": "requests_661970d171d9c3e12e4c789c4768db647d8c4da0",
+  "fail_to_pass": [
+   "test_post_named_tempfile"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_requests.py"
+  ]
+ },
+ {
+  "instance_id": "requests_7433",
+  "repo": "psf/requests",
+  "base_commit": "0b401c76b6e80a4eecf3c690085b2553f6e261ca",
+  "graph_key": "requests_0b401c76b6e80a4eecf3c690085b2553f6e261ca",
+  "fail_to_pass": [
+   "test_getattr_proxy_stream_follows_redirect"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_requests.py"
+  ]
+ },
+ {
+  "instance_id": "requests_7427",
+  "repo": "psf/requests",
+  "base_commit": "b684dcb9bbf3aa557d1238e72062c4a29737dd1c",
+  "graph_key": "requests_b684dcb9bbf3aa557d1238e72062c4a29737dd1c",
+  "fail_to_pass": [
+   "test_should_bypass_proxies_no_proxy_domain_boundary"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_utils.py"
+  ]
+ },
+ {
+  "instance_id": "requests_7315",
+  "repo": "psf/requests",
+  "base_commit": "6360477c52303c9445b45fa8744b02d05a2f0905",
+  "graph_key": "requests_6360477c52303c9445b45fa8744b02d05a2f0905",
+  "fail_to_pass": [
+   "test_request_url_handles_leading_path_separators"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_adapters.py"
+  ]
+ },
+ {
+  "instance_id": "requests_7328",
+  "repo": "psf/requests",
+  "base_commit": "cbce031327be4f1b4b5fd041ff4dcaa8efa2ce53",
+  "graph_key": "requests_cbce031327be4f1b4b5fd041ff4dcaa8efa2ce53",
+  "fail_to_pass": [
+   "test_redirect_history_no_self_reference"
+  ],
+  "pass_to_pass": [
+   "test_HTTP_307_ALLOW_REDIRECT_POST"
+  ],
+  "files": [
+   "tests/test_requests.py"
+  ]
+ },
+ {
+  "instance_id": "requests_7309",
+  "repo": "psf/requests",
+  "base_commit": "7407309c8a8a73aa2f4337184025d440bbedab7a",
+  "graph_key": "requests_7407309c8a8a73aa2f4337184025d440bbedab7a",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_get_encoding_from_headers"
+  ],
+  "files": [
+   "tests/test_utils.py"
+  ]
+ },
+ {
+  "instance_id": "requests_7205",
+  "repo": "psf/requests",
+  "base_commit": "1b40fdd004bfc8ba5301bcf8a6908264e9b6b877",
+  "graph_key": "requests_1b40fdd004bfc8ba5301bcf8a6908264e9b6b877",
+  "fail_to_pass": [
+   "test_empty_default_credentials_ignored"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_utils.py"
+  ]
+ },
+ {
+  "instance_id": "rich_4070",
+  "repo": "Textualize/rich",
+  "base_commit": "fc41075a3206d2a5fd846c6f41c4d2becab814fa",
+  "graph_key": "rich_fc41075a3206d2a5fd846c6f41c4d2becab814fa",
+  "fail_to_pass": [],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_console.py",
+   "tests/test_syntax.py"
+  ]
+ },
+ {
+  "instance_id": "rich_4077",
+  "repo": "Textualize/rich",
+  "base_commit": "58ac15120fe254886c10d6253667733c83604cb4",
+  "graph_key": "rich_58ac15120fe254886c10d6253667733c83604cb4",
+  "fail_to_pass": [
+   "test_isatty"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_file_proxy.py"
+  ]
+ },
+ {
+  "instance_id": "rich_4079",
+  "repo": "Textualize/rich",
+  "base_commit": "19c67b9a3479841e9133bea94607c89ee931d3fc",
+  "graph_key": "rich_19c67b9a3479841e9133bea94607c89ee931d3fc",
+  "fail_to_pass": [
+   "test_inline_code_in_table_cells"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_markdown.py"
+  ]
+ },
+ {
+  "instance_id": "rich_4076",
+  "repo": "Textualize/rich",
+  "base_commit": "9cb198944f8184df92217efc8b20d3fffa4b4fa0",
+  "graph_key": "rich_9cb198944f8184df92217efc8b20d3fffa4b4fa0",
+  "fail_to_pass": [
+   "test_decode_newlines"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_ansi.py"
+  ]
+ },
+ {
+  "instance_id": "rich_4075",
+  "repo": "Textualize/rich",
+  "base_commit": "1fc7cb210ae52eb099df39818ddb9569e5b14c7b",
+  "graph_key": "rich_1fc7cb210ae52eb099df39818ddb9569e5b14c7b",
+  "fail_to_pass": [
+   "test_print_empty_with_end"
+  ],
+  "pass_to_pass": [
+   "test_print_multiple"
+  ],
+  "files": [
+   "tests/test_console.py"
+  ]
+ },
+ {
+  "instance_id": "rich_4006",
+  "repo": "Textualize/rich",
+  "base_commit": "27701029082052c6541031b6f139097230253900",
+  "graph_key": "rich_27701029082052c6541031b6f139097230253900",
+  "fail_to_pass": [
+   "test_chop_cells_zero_width"
+  ],
+  "pass_to_pass": [
+   "test_is_single_cell_widths",
+   "test_split_graphemes"
+  ],
+  "files": [
+   "tests/test_cells.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14258",
+  "repo": "fastapi/fastapi",
+  "base_commit": "e94028ab60d18080810910352bc9129e8046c92d",
+  "graph_key": "fastapi_e94028ab60d18080810910352bc9129e8046c92d",
+  "fail_to_pass": [
+   "test_router_circular_import"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_router_circular_import.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14851",
+  "repo": "fastapi/fastapi",
+  "base_commit": "8e50c55fd90c4433ddc9096ff439da9498a8314a",
+  "graph_key": "fastapi_8e50c55fd90c4433ddc9096ff439da9498a8314a",
+  "fail_to_pass": [
+   "test_router_async_shutdown_handler",
+   "test_router_sync_generator_lifespan",
+   "test_router_async_generator_lifespan"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_router_events.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14873",
+  "repo": "fastapi/fastapi",
+  "base_commit": "cd31576d5704b6aef1bdadc43770238cd88aad2b",
+  "graph_key": "fastapi_cd31576d5704b6aef1bdadc43770238cd88aad2b",
+  "fail_to_pass": [
+   "test_startup_shutdown_handlers_as_parameters"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_router_events.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_13920",
+  "repo": "fastapi/fastapi",
+  "base_commit": "0dd42b746e17d33a74ea267a62eace9ccdccf345",
+  "graph_key": "fastapi_0dd42b746e17d33a74ea267a62eace9ccdccf345",
+  "fail_to_pass": [
+   "test_pep695_type_dependencies"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_dependency_pep695.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14794",
+  "repo": "fastapi/fastapi",
+  "base_commit": "464c359bb03f7ba72330198cc9f44df36194837d",
+  "graph_key": "fastapi_464c359bb03f7ba72330198cc9f44df36194837d",
+  "fail_to_pass": [
+   "test_response_with_depends_annotated",
+   "test_response_with_depends_default",
+   "test_response_without_depends",
+   "test_response_dependency_chain",
+   "test_response_dependency_returns_different_response_instance",
+   "test_request_with_depends_annotated",
+   "test_background_tasks_with_depends_annotated"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_response_dependency.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14786",
+  "repo": "fastapi/fastapi",
+  "base_commit": "eacbce24c9d299c6a28110d9fc8ac50f53cddb08",
+  "graph_key": "fastapi_eacbce24c9d299c6a28110d9fc8ac50f53cddb08",
+  "fail_to_pass": [
+   "test_security_http_base_with_whitespaces",
+   "test_token_with_whitespaces"
+  ],
+  "pass_to_pass": [
+   "test_security_http_base_no_credentials",
+   "test_openapi_schema"
+  ],
+  "files": [
+   "tests/test_security_http_base.py",
+   "tests/test_security_oauth2_authorization_code_bearer.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14492",
+  "repo": "fastapi/fastapi",
+  "base_commit": "a456e92a21d5b94a67d6d0fd070218df09444443",
+  "graph_key": "fastapi_a456e92a21d5b94a67d6d0fd070218df09444443",
+  "fail_to_pass": [],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_tutorial/test_metadata/test_tutorial001_1.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14479",
+  "repo": "fastapi/fastapi",
+  "base_commit": "2b212ddd7604891d42e2ffbafe764c334230bdb7",
+  "graph_key": "fastapi_2b212ddd7604891d42e2ffbafe764c334230bdb7",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_invalid_sequence",
+   "test_invalid_tuple",
+   "test_invalid_dict",
+   "test_invalid_simple_dict"
+  ],
+  "files": [
+   "tests/test_invalid_sequence_param.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14463",
+  "repo": "fastapi/fastapi",
+  "base_commit": "f2687dc1bb01f4cb62eee90e656b61c38c2aaf6a",
+  "graph_key": "fastapi_f2687dc1bb01f4cb62eee90e656b61c38c2aaf6a",
+  "fail_to_pass": [
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_additional_responses_union_duplicate_anyof.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_12942",
+  "repo": "fastapi/fastapi",
+  "base_commit": "27c0f7e75fc0ce26ca75295d455eb36f0ca033d3",
+  "graph_key": "fastapi_27c0f7e75fc0ce26ca75295d455eb36f0ca033d3",
+  "fail_to_pass": [
+   "test_discriminator_pydantic_v2"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_union_body_discriminator.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14099",
+  "repo": "fastapi/fastapi",
+  "base_commit": "861b22c40897a03d2d7e5926923d962121ed5e2e",
+  "graph_key": "fastapi_861b22c40897a03d2d7e5926923d962121ed5e2e",
+  "fail_to_pass": [
+   "test_catching",
+   "test_broken_raise",
+   "test_broken_no_raise",
+   "test_broken_return_finishes",
+   "test_regular_no_stream",
+   "test_stream_simple",
+   "test_stream_session",
+   "test_broken_session_data",
+   "test_broken_session_data_no_raise",
+   "test_broken_session_stream_raise",
+   "test_broken_session_stream_no_raise",
+   "test_websocket_dependency_after_yield",
+   "test_websocket_dependency_after_yield_broken"
+  ],
+  "pass_to_pass": [
+   "test_sync_raise_raises",
+   "test_websocket_invalid_path_doesnt_match",
+   "test_internal_server_error"
+  ],
+  "files": [
+   "tests/test_dependency_after_yield_raise.py",
+   "tests/test_dependency_after_yield_streaming.py",
+   "tests/test_dependency_after_yield_websockets.py",
+   "tests/test_dependency_contextmanager.py",
+   "tests/test_route_scope.py",
+   "tests/test_tutorial/test_dependencies/test_tutorial008c.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14609",
+  "repo": "fastapi/fastapi",
+  "base_commit": "1b3bea8b6be2220cc1544653ea785d2134fcb35b",
+  "graph_key": "fastapi_1b3bea8b6be2220cc1544653ea785d2134fcb35b",
+  "fail_to_pass": [
+   "test_json_encoder_error_with_pydanticv1"
+  ],
+  "pass_to_pass": [
+   "test_model_field_default_required",
+   "test_complex",
+   "test_pydanticv2",
+   "test_encode_model_with_config",
+   "test_custom_encoders",
+   "test_custom_enum_encoders",
+   "test_decimal_encoder_float"
+  ],
+  "files": [
+   "tests/test_compat.py",
+   "tests/test_compat_params_v1.py",
+   "tests/test_datetime_custom_encoder.py",
+   "tests/test_filter_pydantic_sub_model/app_pv1.py",
+   "tests/test_filter_pydantic_sub_model/test_filter_pydantic_sub_model_pv1.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_inherited_custom_class.py",
+   "tests/test_jsonable_encoder.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14372",
+  "repo": "fastapi/fastapi",
+  "base_commit": "566e3157a5517784c741dbf36e39687af326fe90",
+  "graph_key": "fastapi_566e3157a5517784c741dbf36e39687af326fe90",
+  "fail_to_pass": [
+   "test_depends_hashable"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_depends_hashable.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14349",
+  "repo": "fastapi/fastapi",
+  "base_commit": "eaf611f9ee56de4f16c837d4f487a4b9fca507c4",
+  "graph_key": "fastapi_eaf611f9ee56de4f16c837d4f487a4b9fca507c4",
+  "fail_to_pass": [
+   "test_get",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_schema_ref_pydantic_v2.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14512",
+  "repo": "fastapi/fastapi",
+  "base_commit": "1fcec88ad2df4541b6a81c4786c4d039dc745e1e",
+  "graph_key": "fastapi_1fcec88ad2df4541b6a81c4786c4d039dc745e1e",
+  "fail_to_pass": [
+   "test_union_body_discriminator_assignment",
+   "test_union_body_discriminator_annotated",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_union_body_discriminator_annotated.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14487",
+  "repo": "fastapi/fastapi",
+  "base_commit": "4a98a66778987648d2195155c9cbe0824d67b02a",
+  "graph_key": "fastapi_4a98a66778987648d2195155c9cbe0824d67b02a",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_get_validation_error",
+   "test_get_http_error"
+  ],
+  "files": [
+   "tests/test_tutorial/test_handling_errors/test_tutorial004.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_11355",
+  "repo": "fastapi/fastapi",
+  "base_commit": "811fa898752e7f5697733a2958ff79ad8dfb5276",
+  "graph_key": "fastapi_811fa898752e7f5697733a2958ff79ad8dfb5276",
+  "fail_to_pass": [
+   "test_stringified_annotations"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_stringified_annotations_simple.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14485",
+  "repo": "fastapi/fastapi",
+  "base_commit": "60699f306b67dc1f4918ebea17f04d7a48cda645",
+  "graph_key": "fastapi_60699f306b67dc1f4918ebea17f04d7a48cda645",
+  "fail_to_pass": [
+   "test_get",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_stringified_annotation_dependency.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14482",
+  "repo": "fastapi/fastapi",
+  "base_commit": "71a17b5932e38bcf798fcd05c5bb384e6d4db5bf",
+  "graph_key": "fastapi_71a17b5932e38bcf798fcd05c5bb384e6d4db5bf",
+  "fail_to_pass": [
+   "test_get",
+   "test_typeadapter",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_arbitrary_types.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14306",
+  "repo": "fastapi/fastapi",
+  "base_commit": "08b09e5236e315b6f10265ed229f130d4befb4ea",
+  "graph_key": "fastapi_08b09e5236e315b6f10265ed229f130d4befb4ea",
+  "fail_to_pass": [
+   "test_request_validation_error_includes_endpoint_context",
+   "test_response_validation_error_includes_endpoint_context",
+   "test_websocket_validation_error_includes_endpoint_context",
+   "test_subapp_request_validation_error_includes_endpoint_context",
+   "test_subapp_websocket_validation_error_includes_endpoint_context",
+   "test_validation_error_with_only_path",
+   "test_validation_error_with_no_context"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_validation_error_context.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14458",
+  "repo": "fastapi/fastapi",
+  "base_commit": "516169428d2fa189d34318ebc469a082c49c1189",
+  "graph_key": "fastapi_516169428d2fa189d34318ebc469a082c49c1189",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_class_dependency"
+  ],
+  "files": [
+   "tests/test_dependency_class.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14459",
+  "repo": "fastapi/fastapi",
+  "base_commit": "eb1d50479ba0ac873e4ffa08a824b1d822ca3a17",
+  "graph_key": "fastapi_eb1d50479ba0ac873e4ffa08a824b1d822ca3a17",
+  "fail_to_pass": [
+   "test_read_with_oauth2_scheme",
+   "test_read_with_get_token",
+   "test_read_admin",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [
+   "test_read_token"
+  ],
+  "files": [
+   "tests/test_security_oauth2_authorization_code_bearer_scopes_openapi.py",
+   "tests/test_security_oauth2_authorization_code_bearer_scopes_openapi_simple.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14448",
+  "repo": "fastapi/fastapi",
+  "base_commit": "c57ac7bdf3613798c94caceff562a41fa16d4a2d",
+  "graph_key": "fastapi_c57ac7bdf3613798c94caceff562a41fa16d4a2d",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_class_dependency"
+  ],
+  "files": [
+   "tests/test_dependency_wrapped.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14455",
+  "repo": "fastapi/fastapi",
+  "base_commit": "603df6e36f59cc4a3e189f506b8f36d1e816c3ac",
+  "graph_key": "fastapi_603df6e36f59cc4a3e189f506b8f36d1e816c3ac",
+  "fail_to_pass": [
+   "test_root",
+   "test_read_token",
+   "test_create_token",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_security_oauth2_authorization_code_bearer_scopes_openapi.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_9753",
+  "repo": "fastapi/fastapi",
+  "base_commit": "aee8e78078e8a7f2736d3cab7a1cb7197356951c",
+  "graph_key": "fastapi_aee8e78078e8a7f2736d3cab7a1cb7197356951c",
+  "fail_to_pass": [
+   "test_dependency_types_with_partial"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_dependency_partial.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14430",
+  "repo": "fastapi/fastapi",
+  "base_commit": "cff2236dacb7aedcaf2d2de0873cfbc9bb2b897a",
+  "graph_key": "fastapi_cff2236dacb7aedcaf2d2de0873cfbc9bb2b897a",
+  "fail_to_pass": [
+   "test_serialize_sequence_value_with_optional_list_pipe_union"
+  ],
+  "pass_to_pass": [
+   "test_serialize_sequence_value_with_none_first_in_union"
+  ],
+  "files": [
+   "tests/test_compat.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_5077",
+  "repo": "fastapi/fastapi",
+  "base_commit": "930b27e5fa32ce150ddcea61f0c913435ae71c83",
+  "graph_key": "fastapi_930b27e5fa32ce150ddcea61f0c913435ae71c83",
+  "fail_to_pass": [
+   "test_wrapped_method_type_inference"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/forward_reference_type.py",
+   "tests/test_wrapped_method_forward_reference.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_9555",
+  "repo": "fastapi/fastapi",
+  "base_commit": "4976568fc7cb7501729d8f84d946cde1e91299cd",
+  "graph_key": "fastapi_4976568fc7cb7501729d8f84d946cde1e91299cd",
+  "fail_to_pass": [
+   "test_class_dependency"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_dependency_wrapped.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14361",
+  "repo": "fastapi/fastapi",
+  "base_commit": "5265c4f5cb4d8fb4fb5015bccf1a6de8f3fc6044",
+  "graph_key": "fastapi_5265c4f5cb4d8fb4fb5015bccf1a6de8f3fc6044",
+  "fail_to_pass": [
+   "test_get",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_schema_compat_pydantic_v2.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_13207",
+  "repo": "fastapi/fastapi",
+  "base_commit": "5126e099bdda51f261fd5a101b5f914991d31897",
+  "graph_key": "fastapi_5126e099bdda51f261fd5a101b5f914991d31897",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_get",
+   "test_openapi_schema"
+  ],
+  "files": [
+   "tests/test_computed_fields.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14360",
+  "repo": "fastapi/fastapi",
+  "base_commit": "eead41bf4cf8587b4d86091dd3eabbb85796e717",
+  "graph_key": "fastapi_eead41bf4cf8587b4d86091dd3eabbb85796e717",
+  "fail_to_pass": [
+   "test_query_model_with_alias",
+   "test_header_model_with_alias",
+   "test_cookie_model_with_alias",
+   "test_query_model_with_alias_by_name",
+   "test_header_model_with_alias_by_name",
+   "test_cookie_model_with_alias_by_name"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_request_param_model_by_alias.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14356",
+  "repo": "fastapi/fastapi",
+  "base_commit": "6cf40df24d1d199fd25d034fc87fcae284fc23a2",
+  "graph_key": "fastapi_6cf40df24d1d199fd25d034fc87fcae284fc23a2",
+  "fail_to_pass": [
+   "test_query_pass_extra_list",
+   "test_query_pass_extra_single",
+   "test_header_pass_extra_list",
+   "test_header_pass_extra_single",
+   "test_cookie_pass_extra_list"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_query_cookie_header_model_extra_params.py",
+   "tests/test_tutorial/test_header_param_models/test_tutorial003.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_5624",
+  "repo": "fastapi/fastapi",
+  "base_commit": "c6487ed632056e450d844846a1b63be551a3cbc6",
+  "graph_key": "fastapi_c6487ed632056e450d844846a1b63be551a3cbc6",
+  "fail_to_pass": [
+   "test_security_scopes_dont_propagate"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_security_scopes_dont_propagate.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14419",
+  "repo": "fastapi/fastapi",
+  "base_commit": "63d7a2b9978258d13dfc22664e60fc2110d30e20",
+  "graph_key": "fastapi_63d7a2b9978258d13dfc22664e60fc2110d30e20",
+  "fail_to_pass": [
+   "test_security_scopes_dependency_called_once",
+   "test_security_scopes_sub_dependency_caching"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_security_scopes.py",
+   "tests/test_security_scopes_sub_dependency.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14301",
+  "repo": "fastapi/fastapi",
+  "base_commit": "972a967d5d3fa24d450637c36c6b7ad1f1d8c1b6",
+  "graph_key": "fastapi_972a967d5d3fa24d450637c36c6b7ad1f1d8c1b6",
+  "fail_to_pass": [
+   "test_router_level_dep_scope_function",
+   "test_router_level_dep_scope_request",
+   "test_app_level_dep_scope_function",
+   "test_app_level_dep_scope_request"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_dependency_yield_scope.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14262",
+  "repo": "fastapi/fastapi",
+  "base_commit": "425a4c5bb1d1a8e00007e82e5188fc4d30585767",
+  "graph_key": "fastapi_425a4c5bb1d1a8e00007e82e5188fc4d30585767",
+  "fail_to_pass": [
+   "test_function_scope",
+   "test_request_scope",
+   "test_two_scopes",
+   "test_sub",
+   "test_broken_scope",
+   "test_named_function_scope",
+   "test_regular_function_scope",
+   "test_get_users_me"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_dependency_yield_scope.py",
+   "tests/test_dependency_yield_scope_websockets.py",
+   "tests/test_tutorial/test_dependencies/test_tutorial008e.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14266",
+  "repo": "fastapi/fastapi",
+  "base_commit": "2cf04ee30db9df2db04a5b1e0d2c625dfbf1a211",
+  "graph_key": "fastapi_2cf04ee30db9df2db04a5b1e0d2c625dfbf1a211",
+  "fail_to_pass": [
+   "test_get_root",
+   "test_get_root_no_token",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_top_level_security_scheme_in_openapi.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14246",
+  "repo": "fastapi/fastapi",
+  "base_commit": "7132a690461c2367f22556eb87c2b5eb7d9cfb45",
+  "graph_key": "fastapi_7132a690461c2367f22556eb87c2b5eb7d9cfb45",
+  "fail_to_pass": [
+   "test_create_message",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_no_schema_split.py",
+   "tests/test_pydantic_v1_v2_multifile/test_multifile.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14186",
+  "repo": "fastapi/fastapi",
+  "base_commit": "6e49dc029541aaa896fa63c47647ccd3f066df67",
+  "graph_key": "fastapi_6e49dc029541aaa896fa63c47647ccd3f066df67",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_v1_plain_validator_function",
+   "test_is_pv1_scalar_field",
+   "test_get_model_fields_cached",
+   "test_invalid_response_model_field_pv1"
+  ],
+  "files": [
+   "tests/test_compat.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_response_model_as_return_annotation.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_9425",
+  "repo": "fastapi/fastapi",
+  "base_commit": "0bdc3ca3732e3742e094bea2b320e9774659ac38",
+  "graph_key": "fastapi_0bdc3ca3732e3742e094bea2b320e9774659ac38",
+  "fail_to_pass": [
+   "test_no_content"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_return_none_stringified_annotations.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_13713",
+  "repo": "fastapi/fastapi",
+  "base_commit": "5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e",
+  "graph_key": "fastapi_5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e",
+  "fail_to_pass": [],
+  "pass_to_pass": [],
+  "files": [
+   "tests/main.py",
+   "tests/test_application.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14077",
+  "repo": "fastapi/fastapi",
+  "base_commit": "16d75d90eb96976a57b94cc24e4018859cd54c4d",
+  "graph_key": "fastapi_16d75d90eb96976a57b94cc24e4018859cd54c4d",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_get_invalid",
+   "test_get_valid"
+  ],
+  "files": [
+   "tests/test_enforce_once_required_parameter.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3718",
+  "repo": "Textualize/rich",
+  "base_commit": "7d36119f8378b36129502c3281a7faffef837e02",
+  "graph_key": "rich_7d36119f8378b36129502c3281a7faffef837e02",
+  "fail_to_pass": [
+   "test_title_text_with_border_color",
+   "test_title_text_with_panel_background"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_panel.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3934",
+  "repo": "Textualize/rich",
+  "base_commit": "6764b24739b580c0c32ff5ef0b971ed4cfcf4f75",
+  "graph_key": "rich_6764b24739b580c0c32ff5ef0b971ed4cfcf4f75",
+  "fail_to_pass": [
+   "test_live_empty"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_live.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3953",
+  "repo": "Textualize/rich",
+  "base_commit": "1d402e0c59f8765e420a5a4440eb2fca7465d1ae",
+  "graph_key": "rich_1d402e0c59f8765e420a5a4440eb2fca7465d1ae",
+  "fail_to_pass": [
+   "test_zwj",
+   "test_non_printable"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_cells.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3944",
+  "repo": "Textualize/rich",
+  "base_commit": "36fe3f7ca9becca4777861d5e6e625f5a4a37545",
+  "graph_key": "rich_36fe3f7ca9becca4777861d5e6e625f5a4a37545",
+  "fail_to_pass": [
+   "test_nerd_font"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_cells.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3942",
+  "repo": "Textualize/rich",
+  "base_commit": "c595fa95068dd2c5095d25446b2f0571bc0b3995",
+  "graph_key": "rich_c595fa95068dd2c5095d25446b2f0571bc0b3995",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_markdown_render",
+   "test_partial_table"
+  ],
+  "files": [
+   "tests/_card_render.py",
+   "tests/test_markdown.py",
+   "tests/test_markdown_no_hyperlinks.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3938",
+  "repo": "Textualize/rich",
+  "base_commit": "05ff970926cbd0b5d0acb6fc18cdbd1fc971e582",
+  "graph_key": "rich_05ff970926cbd0b5d0acb6fc18cdbd1fc971e582",
+  "fail_to_pass": [
+   "test_split_lines_terminator",
+   "test_split_lines_terminator_single_line",
+   "test_soft_wrap_styled"
+  ],
+  "pass_to_pass": [
+   "test_split_and_crop_lines"
+  ],
+  "files": [
+   "tests/test_segment.py",
+   "tests/test_text.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3882",
+  "repo": "Textualize/rich",
+  "base_commit": "4d6d631a3d2deddf8405522d4b8c976a6d35726c",
+  "graph_key": "rich_4d6d631a3d2deddf8405522d4b8c976a6d35726c",
+  "fail_to_pass": [
+   "test_prompt_confirm_markup"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_prompt.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3894",
+  "repo": "Textualize/rich",
+  "base_commit": "4d6d631a3d2deddf8405522d4b8c976a6d35726c",
+  "graph_key": "rich_4d6d631a3d2deddf8405522d4b8c976a6d35726c",
+  "fail_to_pass": [
+   "test_qualname_in_slots"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_inspect.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3935",
+  "repo": "Textualize/rich",
+  "base_commit": "fe55a131c2780fa856464ad04d7d6dc8a1079b72",
+  "graph_key": "rich_fe55a131c2780fa856464ad04d7d6dc8a1079b72",
+  "fail_to_pass": [
+   "test_padding_width"
+  ],
+  "pass_to_pass": [
+   "test_render"
+  ],
+  "files": [
+   "tests/test_columns.py",
+   "tests/test_table.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3905",
+  "repo": "Textualize/rich",
+  "base_commit": "96dd4b60e3a7c647c43a85ad375afa690b3bb85b",
+  "graph_key": "rich_96dd4b60e3a7c647c43a85ad375afa690b3bb85b",
+  "fail_to_pass": [
+   "test_no_output_if_progress_is_disabled_non_interactive"
+  ],
+  "pass_to_pass": [
+   "test_open"
+  ],
+  "files": [
+   "tests/test_progress.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3930",
+  "repo": "Textualize/rich",
+  "base_commit": "53757bc234cf18977cade41a5b64f3abaccb0b85",
+  "graph_key": "rich_53757bc234cf18977cade41a5b64f3abaccb0b85",
+  "fail_to_pass": [
+   "test_get_character_cell_size",
+   "test_split_text",
+   "test_split_graphemes",
+   "test_wrap_long_multi_codepoint",
+   "test_wrap_multi_codepoint",
+   "test_load",
+   "test_parse_version",
+   "test_load_version",
+   "test_load_version_invalid"
+  ],
+  "pass_to_pass": [
+   "test_cell_len_long_string",
+   "test_chop_cells",
+   "test_wrap_overflow",
+   "test_wrap_long_words_justify_left"
+  ],
+  "files": [
+   "tests/test_cells.py",
+   "tests/test_text.py",
+   "tests/test_unicode_data.py"
+  ]
+ },
+ {
+  "instance_id": "httpx_3672",
+  "repo": "encode/httpx",
+  "base_commit": "4acf5c2c37714cc63b5cf71b3e284fca83c90311",
+  "graph_key": "httpx_4acf5c2c37714cc63b5cf71b3e284fca83c90311",
+  "fail_to_pass": [],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_parsers.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14791",
+  "repo": "fastapi/fastapi",
+  "base_commit": "08924400c2c75533685148b029defcf6913f1def",
+  "graph_key": "fastapi_08924400c2c75533685148b029defcf6913f1def",
+  "fail_to_pass": [],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_additional_properties.py",
+   "tests/test_additional_properties_bool.py",
+   "tests/test_additional_responses_custom_model_in_callback.py",
+   "tests/test_additional_responses_default_validationerror.py",
+   "tests/test_annotated.py",
+   "tests/test_application.py",
+   "tests/test_dependency_duplicates.py",
+   "tests/test_enforce_once_required_parameter.py",
+   "tests/test_extra_routes.py",
+   "tests/test_filter_pydantic_sub_model_pv2.py",
+   "tests/test_forms_single_param.py",
+   "tests/test_generate_unique_id_function.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_get_request_body.py",
+   "tests/test_include_router_defaults_overrides.py",
+   "tests/test_infer_param_optionality.py",
+   "tests/test_modules_same_name_body/test_main.py",
+   "tests/test_multi_body_errors.py",
+   "tests/test_multi_query_errors.py",
+   "tests/test_no_schema_split.py",
+   "tests/test_openapi_examples.py",
+   "tests/test_openapi_query_parameter_extension.py",
+   "tests/test_openapi_separate_input_output_schemas.py",
+   "tests/test_param_in_path_and_dependency.py",
+   "tests/test_param_include_in_schema.py",
+   "tests/test_put_no_body.py",
+   "tests/test_regex_deprecated_body.py",
+   "tests/test_regex_deprecated_params.py",
+   "tests/test_repeated_dependency_schema.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_15800",
+  "repo": "fastapi/fastapi",
+  "base_commit": "f1d750fddad90e2faad6c3cc5c85c7687b787e89",
+  "graph_key": "fastapi_f1d750fddad90e2faad6c3cc5c85c7687b787e89",
+  "fail_to_pass": [
+   "test_frontend_exact_prefix_path_serves_index",
+   "test_apirouter_frontend_with_router_prefix_and_frontend_subpath",
+   "test_frontend_fallback_rejects_invalid_fallback",
+   "test_index_fallback_ignores_invalid_q_value",
+   "test_frontend_static_files_lookup_errors",
+   "test_frontend_route_group_helpers",
+   "test_included_low_priority_routes_cache_is_reused",
+   "test_low_priority_api_route_handles_with_context",
+   "test_included_low_priority_api_route_handles_with_context",
+   "test_normal_route_partial_match_returns_before_frontend",
+   "test_normal_route_partial_match_wins_before_frontend",
+   "test_basic_file_serving",
+   "test_existing_api_route_wins_over_frontend",
+   "test_api_route_404_is_not_replaced_by_frontend_fallback",
+   "test_index_fallback_for_navigation_request",
+   "test_index_fallback_parses_accept_parameters",
+   "test_index_fallback_ignores_q_zero_accept",
+   "test_index_fallback_respects_explicit_html_rejection_with_wildcard",
+   "test_index_fallback_respects_explicit_xhtml_rejection_with_wildcard",
+   "test_index_fallback_does_not_handle_asset_like_or_non_html_requests",
+   "test_404_fallback_handles_missing_assets",
+   "test_auto_fallback_prefers_404_over_index",
+   "test_auto_fallback_uses_index_when_404_is_missing",
+   "test_auto_fallback_returns_normal_404_without_fallback_files",
+   "test_no_fallback_returns_normal_404",
+   "test_directory_index_and_redirect",
+   "test_path_validation_and_trailing_slash_normalization",
+   "test_frontend_path_matching_uses_segment_boundaries",
+   "test_multiple_frontends_use_longest_matching_prefix",
+   "test_apirouter_frontend_uses_include_prefix",
+   "test_global_priority_across_included_routers",
+   "test_nested_apirouter_frontend_uses_all_include_prefixes",
+   "test_low_priority_cache_updates_after_route_added_to_included_router",
+   "test_normal_route_slash_redirect_wins_before_frontend_redirect",
+   "test_frontend_respects_root_path",
+   "test_websocket_route_wins_over_frontend",
+   "test_head_requests_work",
+   "test_unsupported_methods_return_405",
+   "test_path_traversal_cannot_escape_directory",
+   "test_symlink_outside_directory_is_not_served",
+   "test_check_dir_true_fails_early_for_missing_directory",
+   "test_check_dir_false_allows_missing_directory_and_fails_on_request",
+   "test_explicit_fallback_files_fail_clearly_when_missing",
+   "test_frontend_routes_are_not_in_openapi",
+   "test_docs_frontend_examples",
+   "test_low_priority_routes_can_store_non_frontend_routes",
+   "test_included_low_priority_routes_can_store_non_frontend_routes"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_frontend.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_15785",
+  "repo": "fastapi/fastapi",
+  "base_commit": "202b2d2f5f331db9102b5dbcef071a9e09bed10e",
+  "graph_key": "fastapi_202b2d2f5f331db9102b5dbcef071a9e09bed10e",
+  "fail_to_pass": [
+   "test_iter_route_contexts_returns_direct_route_context",
+   "test_iter_route_contexts_supports_nested_conflict_detection",
+   "test_get_openapi_accepts_filtered_route_contexts_with_effective_paths",
+   "test_get_openapi_accepts_webhook_route_contexts"
+  ],
+  "pass_to_pass": [
+   "test_router_include_context_matches_flattened_include_metadata"
+  ],
+  "files": [
+   "tests/test_router_include_context.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14371",
+  "repo": "fastapi/fastapi",
+  "base_commit": "3fe6522aaed4d36d6a38175a4a8137ee0fc62451",
+  "graph_key": "fastapi_3fe6522aaed4d36d6a38175a4a8137ee0fc62451",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_required_list_validation_alias_by_name",
+   "test_required_list_validation_alias_by_validation_alias",
+   "test_required_list_alias_and_validation_alias_by_validation_alias",
+   "test_optional_list_validation_alias_by_name",
+   "test_optional_list_validation_alias_by_validation_alias",
+   "test_optional_list_alias_and_validation_alias_by_alias",
+   "test_optional_validation_alias_by_name",
+   "test_optional_validation_alias_by_validation_alias",
+   "test_optional_alias_and_validation_alias_by_alias",
+   "test_optional_alias_and_validation_alias_by_validation_alias",
+   "test_required_validation_alias_by_name",
+   "test_required_validation_alias_by_validation_alias",
+   "test_required_alias_and_validation_alias_by_alias",
+   "test_required_alias_and_validation_alias_by_validation_alias",
+   "test_optional_alias_by_alias",
+   "test_required_alias_by_name",
+   "test_required_alias_by_alias",
+   "test_list_validation_alias_missing",
+   "test_list_validation_alias_by_name",
+   "test_list_alias_and_validation_alias_missing",
+   "test_list_alias_and_validation_alias_by_alias",
+   "test_required_validation_alias_missing",
+   "test_required_alias_and_validation_alias_missing",
+   "test_required_alias_and_validation_alias_by_name",
+   "test_required_list_alias_by_name",
+   "test_required_list_alias_and_validation_alias_by_alias",
+   "test_optional_list_alias_and_validation_alias_by_validation_alias",
+   "test_required_list_alias_by_alias",
+   "test_optional_list_alias_by_alias"
+  ],
+  "files": [
+   "tests/test_request_params/test_body/test_list.py",
+   "tests/test_request_params/test_body/test_optional_list.py",
+   "tests/test_request_params/test_body/test_optional_str.py",
+   "tests/test_request_params/test_body/test_required_str.py",
+   "tests/test_request_params/test_cookie/test_optional_str.py",
+   "tests/test_request_params/test_cookie/test_required_str.py",
+   "tests/test_request_params/test_file/test_list.py",
+   "tests/test_request_params/test_file/test_optional.py",
+   "tests/test_request_params/test_file/test_optional_list.py",
+   "tests/test_request_params/test_file/test_required.py",
+   "tests/test_request_params/test_form/test_list.py",
+   "tests/test_request_params/test_form/test_optional_list.py",
+   "tests/test_request_params/test_form/test_optional_str.py",
+   "tests/test_request_params/test_form/test_required_str.py",
+   "tests/test_request_params/test_header/test_list.py",
+   "tests/test_request_params/test_header/test_optional_list.py",
+   "tests/test_request_params/test_header/test_optional_str.py",
+   "tests/test_request_params/test_header/test_required_str.py",
+   "tests/test_request_params/test_path/test_required_str.py",
+   "tests/test_request_params/test_query/test_list.py",
+   "tests/test_request_params/test_query/test_optional_list.py",
+   "tests/test_request_params/test_query/test_optional_str.py",
+   "tests/test_request_params/test_query/test_required_str.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14605",
+  "repo": "fastapi/fastapi",
+  "base_commit": "6b53786f626db95a42fd0f66afd360bab161f4b1",
+  "graph_key": "fastapi_6b53786f626db95a42fd0f66afd360bab161f4b1",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_query_regex_deprecation_warning",
+   "test_body_regex_deprecation_warning",
+   "test_query_example_deprecation_warning",
+   "test_body_example_deprecation_warning"
+  ],
+  "files": [
+   "tests/benchmarks/test_general_performance.py",
+   "tests/test_compat_params_v1.py",
+   "tests/test_pydantic_v1_deprecation_warnings.py",
+   "tests/test_regex_deprecated_body.py",
+   "tests/test_regex_deprecated_params.py",
+   "tests/test_schema_extra_examples.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial002.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial003.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial004.py",
+   "tests/test_tutorial/test_query_params_str_validations/test_tutorial004.py",
+   "tests/test_tutorial/test_request_form_models/test_tutorial002_pv1.py",
+   "tests/test_tutorial/test_schema_extra_example/test_tutorial001_pv1.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_15763",
+  "repo": "fastapi/fastapi",
+  "base_commit": "9a9c4ad5d06f5fe8ee6775a5aeaa2f83c854f263",
+  "graph_key": "fastapi_9a9c4ad5d06f5fe8ee6775a5aeaa2f83c854f263",
+  "fail_to_pass": [
+   "test_no_prefix_include_validation_sees_effective_api_route_path",
+   "test_no_prefix_include_validation_sees_effective_starlette_route_path",
+   "test_no_prefix_include_validation_rejects_empty_effective_api_route_path"
+  ],
+  "pass_to_pass": [
+   "test_apirouter_matches_fallback_without_include_context"
+  ],
+  "files": [
+   "tests/test_router_include_context.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14583",
+  "repo": "fastapi/fastapi",
+  "base_commit": "6513d4daa16a536d17743de6a292f49bd06388a4",
+  "graph_key": "fastapi_6513d4daa16a536d17743de6a292f49bd06388a4",
+  "fail_to_pass": [
+   "test_warns_pydantic_v1_model_in_endpoint_param",
+   "test_warns_pydantic_v1_model_in_return_type",
+   "test_warns_pydantic_v1_model_in_response_model",
+   "test_warns_pydantic_v1_model_in_additional_responses_model"
+  ],
+  "pass_to_pass": [
+   "test_cookie_params",
+   "test_cookie_tracking_id_too_short"
+  ],
+  "files": [
+   "tests/benchmarks/test_general_performance.py",
+   "tests/test_compat_params_v1.py",
+   "tests/test_datetime_custom_encoder.py",
+   "tests/test_filter_pydantic_sub_model/app_pv1.py",
+   "tests/test_get_model_definitions_formfeed_escape.py",
+   "tests/test_pydantic_v1_deprecation_warnings.py",
+   "tests/test_pydantic_v1_v2_01.py",
+   "tests/test_pydantic_v1_v2_list.py",
+   "tests/test_pydantic_v1_v2_mixed.py",
+   "tests/test_pydantic_v1_v2_multifile/main.py",
+   "tests/test_pydantic_v1_v2_noneable.py",
+   "tests/test_read_with_orm_mode.py",
+   "tests/test_response_model_as_return_annotation.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial002.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial003.py",
+   "tests/test_tutorial/test_pydantic_v1_in_v2/test_tutorial004.py",
+   "tests/test_tutorial/test_request_form_models/test_tutorial002_pv1.py",
+   "tests/test_tutorial/test_schema_extra_example/test_tutorial001_pv1.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_15745",
+  "repo": "fastapi/fastapi",
+  "base_commit": "016ab760faba1813ba235d5582a014a58bd2f417",
+  "graph_key": "fastapi_016ab760faba1813ba235d5582a014a58bd2f417",
+  "fail_to_pass": [
+   "test_router_include_context_matches_flattened_include_metadata",
+   "test_live_route_addition_uses_include_metadata_for_runtime_and_openapi",
+   "test_openapi_cache_updates_after_live_route_addition",
+   "test_nested_router_added_after_parent_inclusion_is_live",
+   "test_repeated_deep_inclusions_handle_all_concrete_paths",
+   "test_url_path_for_uses_effective_context_for_live_included_route",
+   "test_url_path_for_uses_distinct_repeated_inclusion_contexts",
+   "test_indirect_router_inclusion_cycles_are_rejected",
+   "test_original_api_route_subclass_instance_is_called_after_inclusion",
+   "test_original_api_route_get_route_handler_is_called_after_inclusion",
+   "test_original_api_route_matches_is_called_after_inclusion",
+   "test_effective_route_context_is_available_in_scope_during_request",
+   "test_original_api_router_matches_is_called_after_inclusion",
+   "test_original_nested_api_router_subclasses_are_called_after_inclusion",
+   "test_router_and_include_prefix_path_params_reach_endpoint_and_openapi",
+   "test_effective_body_fields_from_app_router_include_and_route_match_openapi",
+   "test_later_full_match_wins_over_earlier_included_partial_match",
+   "test_included_partial_match_returns_405_when_no_later_full_match_exists",
+   "test_included_slash_redirect_does_not_block_later_exact_match",
+   "test_failed_included_match_does_not_leak_effective_context_to_later_route",
+   "test_included_starlette_mount_keeps_prefix_runtime_and_url_path_for",
+   "test_included_starlette_host_keeps_prefix_runtime_and_url_path_for",
+   "test_restore_fastapi_scope_key_ignores_non_dict_fastapi_scope",
+   "test_effective_api_route_context_does_not_match_websocket_scope",
+   "test_effective_api_route_context_url_path_for_no_match",
+   "test_included_starlette_host_without_prefix_keeps_original_app",
+   "test_no_prefix_include_validation_sees_effective_starlette_route_candidates",
+   "test_apirouter_matches_fallback_without_include_context"
+  ],
+  "pass_to_pass": [
+   "test_route_classes",
+   "test_openapi_schema"
+  ],
+  "files": [
+   "tests/test_custom_route_class.py",
+   "tests/test_router_include_context.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14297",
+  "repo": "fastapi/fastapi",
+  "base_commit": "3c54a8f07b70cdd40e3d81ea319e9fcccd2481d2",
+  "graph_key": "fastapi_3c54a8f07b70cdd40e3d81ea319e9fcccd2481d2",
+  "fail_to_pass": [
+   "test_serialize_sequence_value_with_optional_list",
+   "test_serialize_sequence_value_with_none_first_in_union",
+   "test_optional_bytes_list",
+   "test_optional_bytes_list_no_files"
+  ],
+  "pass_to_pass": [
+   "test_is_pv1_scalar_field"
+  ],
+  "files": [
+   "tests/test_compat.py",
+   "tests/test_optional_file_list.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14303",
+  "repo": "fastapi/fastapi",
+  "base_commit": "740ec2787b25e59f7aa9e3df1db09d4489c22718",
+  "graph_key": "fastapi_740ec2787b25e59f7aa9e3df1db09d4489c22718",
+  "fail_to_pass": [
+   "test_extra_param_single",
+   "test_extra_param_list"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_forms_single_model.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_13537",
+  "repo": "fastapi/fastapi",
+  "base_commit": "3b4b5ab8c819dce27fbaf0aa0a9c74b7f3255ec0",
+  "graph_key": "fastapi_3b4b5ab8c819dce27fbaf0aa0a9c74b7f3255ec0",
+  "fail_to_pass": [
+   "test_form_default_url_encoded",
+   "test_form_default_multi_part"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_form_default.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14953",
+  "repo": "fastapi/fastapi",
+  "base_commit": "d2c17b603d2f986d5f3800d3bf24acba8e1f485b",
+  "graph_key": "fastapi_d2c17b603d2f986d5f3800d3bf24acba8e1f485b",
+  "fail_to_pass": [
+   "test_post_data",
+   "test_get_data",
+   "test_post_data_in_out",
+   "test_openapi_schema"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_request_params/test_file/test_list.py",
+   "tests/test_request_params/test_file/test_optional.py",
+   "tests/test_request_params/test_file/test_optional_list.py",
+   "tests/test_request_params/test_file/test_required.py",
+   "tests/test_tutorial/test_json_base64_bytes/test_tutorial001.py",
+   "tests/test_tutorial/test_request_files/test_tutorial001.py",
+   "tests/test_tutorial/test_request_files/test_tutorial001_02.py",
+   "tests/test_tutorial/test_request_files/test_tutorial001_03.py",
+   "tests/test_tutorial/test_request_files/test_tutorial002.py",
+   "tests/test_tutorial/test_request_files/test_tutorial003.py",
+   "tests/test_tutorial/test_request_forms_and_files/test_tutorial001.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_13786",
+  "repo": "fastapi/fastapi",
+  "base_commit": "e2354a0a063f2fcb890ec568f1a98e136a39fd25",
+  "graph_key": "fastapi_e2354a0a063f2fcb890ec568f1a98e136a39fd25",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_security_api_key_no_key",
+   "test_openapi_schema",
+   "test_security_http_base_no_credentials",
+   "test_security_http_basic_non_basic_credentials",
+   "test_security_http_bearer_no_credentials",
+   "test_security_http_bearer_incorrect_scheme_credentials",
+   "test_security_http_digest_no_credentials",
+   "test_security_http_digest_incorrect_scheme_credentials",
+   "test_security_oauth2_password_bearer_no_header",
+   "test_strict_login_no_data"
+  ],
+  "files": [
+   "tests/test_security_api_key_cookie.py",
+   "tests/test_security_api_key_cookie_description.py",
+   "tests/test_security_api_key_header.py",
+   "tests/test_security_api_key_header_description.py",
+   "tests/test_security_api_key_query.py",
+   "tests/test_security_api_key_query_description.py",
+   "tests/test_security_http_base.py",
+   "tests/test_security_http_base_description.py",
+   "tests/test_security_http_basic_optional.py",
+   "tests/test_security_http_basic_realm.py",
+   "tests/test_security_http_basic_realm_description.py",
+   "tests/test_security_http_bearer.py",
+   "tests/test_security_http_bearer_description.py",
+   "tests/test_security_http_digest.py",
+   "tests/test_security_http_digest_description.py",
+   "tests/test_security_oauth2.py",
+   "tests/test_security_openid_connect.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_14616",
+  "repo": "fastapi/fastapi",
+  "base_commit": "54f8aeeb9a15e4d5a12401ec5549840966df0087",
+  "graph_key": "fastapi_54f8aeeb9a15e4d5a12401ec5549840966df0087",
+  "fail_to_pass": [
+   "test_form_json_list",
+   "test_query_json_list",
+   "test_header_json_list",
+   "test_cookie_json_list"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_json_type.py"
+  ]
+ },
+ {
+  "instance_id": "fastapi_11194",
+  "repo": "fastapi/fastapi",
+  "base_commit": "a7f2dbe976bf72703376f0cd04487bfc4a849f83",
+  "graph_key": "fastapi_a7f2dbe976bf72703376f0cd04487bfc4a849f83",
+  "fail_to_pass": [
+   "test_file_form_order",
+   "test_file_list_form_order"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_file_and_form_order_issue_9116.py"
+  ]
+ },
+ {
+  "instance_id": "requests_6757",
+  "repo": "psf/requests",
+  "base_commit": "0e322af87745eff34caffe4df68456ebc20d9068",
+  "graph_key": "requests_0e322af87745eff34caffe4df68456ebc20d9068",
+  "fail_to_pass": [
+   "test_content_length_for_bytes_data",
+   "test_content_length_for_string_data_counts_bytes"
+  ],
+  "pass_to_pass": [
+   "test_nonhttp_schemes_dont_check_URLs",
+   "test_json_decode_errors_are_serializable_deserializable"
+  ],
+  "files": [
+   "tests/test_requests.py"
+  ]
+ },
+ {
+  "instance_id": "requests_6629",
+  "repo": "psf/requests",
+  "base_commit": "7a13c041dbef42f9f3feb14110f02626f6892e9a",
+  "graph_key": "requests_7a13c041dbef42f9f3feb14110f02626f6892e9a",
+  "fail_to_pass": [
+   "test_json_decode_errors_are_serializable_deserializable"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_requests.py"
+  ]
+ },
+ {
+  "instance_id": "requests_6644",
+  "repo": "psf/requests",
+  "base_commit": "382fc2c0c6c0ef0874bc65bc1175f97c073e5086",
+  "graph_key": "requests_382fc2c0c6c0ef0874bc65bc1175f97c073e5086",
+  "fail_to_pass": [
+   "test_request_url_trims_leading_path_separators"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_adapters.py"
+  ]
+ },
+ {
+  "instance_id": "requests_6589",
+  "repo": "psf/requests",
+  "base_commit": "7a13c041dbef42f9f3feb14110f02626f6892e9a",
+  "graph_key": "requests_7a13c041dbef42f9f3feb14110f02626f6892e9a",
+  "fail_to_pass": [
+   "test_content_length_for_bytes_data",
+   "test_content_length_for_string_data_counts_bytes"
+  ],
+  "pass_to_pass": [
+   "test_nonhttp_schemes_dont_check_URLs"
+  ],
+  "files": [
+   "tests/test_requests.py"
+  ]
+ },
+ {
+  "instance_id": "requests_6592",
+  "repo": "psf/requests",
+  "base_commit": "0b4d494192de489701d3a2e32acef8fb5d3f042e",
+  "graph_key": "requests_0b4d494192de489701d3a2e32acef8fb5d3f042e",
+  "fail_to_pass": [
+   "test_status_code_425"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_requests.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3180",
+  "repo": "Textualize/rich",
+  "base_commit": "e76f3c3ea78481342e21a7b3328075462ab69c2b",
+  "graph_key": "rich_e76f3c3ea78481342e21a7b3328075462ab69c2b",
+  "fail_to_pass": [
+   "test_chop_cells",
+   "test_chop_cells_double_width_boundary",
+   "test_chop_cells_mixed_width",
+   "test_wrap_cjk_mixed",
+   "test_wrap_long_words_followed_by_other_words",
+   "test_wrap_long_word_preceeded_by_word_of_full_line_length",
+   "test_wrap_multiple_consecutive_spaces",
+   "test_wrap_leading_and_trailing_whitespace"
+  ],
+  "pass_to_pass": [
+   "test_cell_len_long_string",
+   "test_wrap_long",
+   "test_wrap_long_words_justify_left",
+   "test_no_wrap_no_crop"
+  ],
+  "files": [
+   "tests/test_cells.py",
+   "tests/test_text.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3486",
+  "repo": "Textualize/rich",
+  "base_commit": "d0de442c08df8793c5ff36d9ad322ca5c47fc38c",
+  "graph_key": "rich_d0de442c08df8793c5ff36d9ad322ca5c47fc38c",
+  "fail_to_pass": [
+   "test_traceback_finely_grained_missing",
+   "test_traceback_finely_grained"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_traceback.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3777",
+  "repo": "Textualize/rich",
+  "base_commit": "49117ced6648a432d85951f72dce777038f6ce09",
+  "graph_key": "rich_49117ced6648a432d85951f72dce777038f6ce09",
+  "fail_to_pass": [
+   "test_tty_interactive"
+  ],
+  "pass_to_pass": [
+   "test_tty_compatible"
+  ],
+  "files": [
+   "tests/test_console.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3468",
+  "repo": "Textualize/rich",
+  "base_commit": "ae15db600976a7999d21653002f338d0761b180c",
+  "graph_key": "rich_ae15db600976a7999d21653002f338d0761b180c",
+  "fail_to_pass": [
+   "test_brokenpipeerror"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_console.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3782",
+  "repo": "Textualize/rich",
+  "base_commit": "3b70db5a2997de191f7db3e422dbe4da35ca1c95",
+  "graph_key": "rich_3b70db5a2997de191f7db3e422dbe4da35ca1c95",
+  "fail_to_pass": [
+   "test_blank_lines",
+   "test_python_render",
+   "test_python_render_simple",
+   "test_python_render_simple_passing_lexer_instance",
+   "test_python_render_simple_indent_guides",
+   "test_python_render_line_range_indent_guides",
+   "test_python_render_indent_guides",
+   "test_pygments_syntax_theme_non_str",
+   "test_pygments_syntax_theme",
+   "test_get_line_color_none",
+   "test_highlight_background_color",
+   "test_get_number_styles",
+   "test_get_style_for_token",
+   "test_option_no_wrap",
+   "test_syntax_highlight_ranges",
+   "test_ansi_theme",
+   "test_from_path",
+   "test_from_path_unknown_lexer",
+   "test_from_path_lexer_override",
+   "test_from_path_lexer_override_invalid_lexer",
+   "test_syntax_guess_lexer",
+   "test_syntax_padding",
+   "test_syntax_measure",
+   "test_background_color_override_includes_padding",
+   "test_padding_plus_wrap"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_syntax.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3772",
+  "repo": "Textualize/rich",
+  "base_commit": "2809954800af15b4027364cebf82390fe23dc194",
+  "graph_key": "rich_2809954800af15b4027364cebf82390fe23dc194",
+  "fail_to_pass": [
+   "test_recursive_exception"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_traceback.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3296",
+  "repo": "Textualize/rich",
+  "base_commit": "fde5d6eee3b0437eaecdcbf6f8b11aeab3a5d503",
+  "graph_key": "rich_fde5d6eee3b0437eaecdcbf6f8b11aeab3a5d503",
+  "fail_to_pass": [
+   "test_background_color_override_includes_padding"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_syntax.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3675",
+  "repo": "Textualize/rich",
+  "base_commit": "edc6b0a39b6df1c0e26d409bb5c5eda7149b2de6",
+  "graph_key": "rich_edc6b0a39b6df1c0e26d409bb5c5eda7149b2de6",
+  "fail_to_pass": [
+   "test_dumb_terminal",
+   "test_soft_wrap",
+   "test_16color_terminal",
+   "test_truecolor_terminal",
+   "test_kitty_terminal",
+   "test_console_options_update",
+   "test_console_options_update_height",
+   "test_init",
+   "test_size",
+   "test_repr",
+   "test_print",
+   "test_print_multiple",
+   "test_print_text",
+   "test_print_text_multiple",
+   "test_print_json",
+   "test_print_json_error",
+   "test_print_json_data",
+   "test_print_json_ensure_ascii",
+   "test_print_json_with_default_ensure_ascii",
+   "test_print_json_indent_none",
+   "test_console_null_file",
+   "test_log",
+   "test_log_milliseconds",
+   "test_print_empty",
+   "test_markup_highlight",
+   "test_print_style",
+   "test_show_cursor",
+   "test_clear",
+   "test_clear_no_terminal",
+   "test_get_style",
+   "test_get_style_default",
+   "test_get_style_error",
+   "test_render_error",
+   "test_control",
+   "test_capture",
+   "test_input",
+   "test_input_password",
+   "test_status",
+   "test_justify_none",
+   "test_justify_left",
+   "test_justify_center",
+   "test_justify_right",
+   "test_justify_renderable_none",
+   "test_justify_renderable_left",
+   "test_justify_renderable_center",
+   "test_justify_renderable_right",
+   "test_render_broken_renderable",
+   "test_export_text",
+   "test_export_html",
+   "test_export_html_inline",
+   "test_export_svg",
+   "test_export_svg_specified_unique_id",
+   "test_save_svg",
+   "test_save_text",
+   "test_save_html",
+   "test_no_wrap",
+   "test_no_color",
+   "test_quiet",
+   "test_no_nested_live",
+   "test_screen",
+   "test_screen_update",
+   "test_height",
+   "test_columns_env",
+   "test_lines_env",
+   "test_screen_update_class",
+   "test_is_alt_screen",
+   "test_set_console_title",
+   "test_update_screen",
+   "test_update_screen_lines",
+   "test_update_options_markup",
+   "test_print_width_zero",
+   "test_size_properties",
+   "test_print_newline_start",
+   "test_is_terminal_broken_file",
+   "test_detect_color_system",
+   "test_reset_height",
+   "test_render_lines_height_minus_vertical_pad_is_negative",
+   "test_recording_no_stdout_and_no_stderr_files",
+   "test_capturing_no_stdout_and_no_stderr_files",
+   "test_force_color",
+   "test_force_color_jupyter",
+   "test_tty_compatible"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_console.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3676",
+  "repo": "Textualize/rich",
+  "base_commit": "2b5d648b2c62960deb6439f4204ed8fa6eb3cf7b",
+  "graph_key": "rich_2b5d648b2c62960deb6439f4204ed8fa6eb3cf7b",
+  "fail_to_pass": [
+   "test_notes"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_traceback.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3518",
+  "repo": "Textualize/rich",
+  "base_commit": "5ba9cb56e68dcdf2db50c214d8f1412c8a50761b",
+  "graph_key": "rich_5ba9cb56e68dcdf2db50c214d8f1412c8a50761b",
+  "fail_to_pass": [
+   "test_columns_highlight_added_by_add_row"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_table.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3535",
+  "repo": "Textualize/rich",
+  "base_commit": "0f2f51b872d14588de3a65968f5cdde6fb5694a3",
+  "graph_key": "rich_0f2f51b872d14588de3a65968f5cdde6fb5694a3",
+  "fail_to_pass": [
+   "test_is_single_cell_widths"
+  ],
+  "pass_to_pass": [
+   "test_cell_len_long_string"
+  ],
+  "files": [
+   "tests/test_cells.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3521",
+  "repo": "Textualize/rich",
+  "base_commit": "66074922edabeac684434b4d87ee994fb97b0627",
+  "graph_key": "rich_66074922edabeac684434b4d87ee994fb97b0627",
+  "fail_to_pass": [
+   "test_split_cells_mixed"
+  ],
+  "pass_to_pass": [
+   "test_split_cells_doubles"
+  ],
+  "files": [
+   "tests/test_segment.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3506",
+  "repo": "Textualize/rich",
+  "base_commit": "4101991898ee7a09fe1706daca24af5e1e054862",
+  "graph_key": "rich_4101991898ee7a09fe1706daca24af5e1e054862",
+  "fail_to_pass": [
+   "test_split_cells_mixed",
+   "test_split_cells_doubles",
+   "test_split_cells_single"
+  ],
+  "pass_to_pass": [
+   "test_segment_lines_renderable"
+  ],
+  "files": [
+   "tests/test_segment.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3480",
+  "repo": "Textualize/rich",
+  "base_commit": "9ec419154102acce7363e3958bec6c261864d7fb",
+  "graph_key": "rich_9ec419154102acce7363e3958bec6c261864d7fb",
+  "fail_to_pass": [
+   "test_append_loop_regression"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_text.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3472",
+  "repo": "Textualize/rich",
+  "base_commit": "b6f2f7aa5b27f612f391cd28212aff51ad0d42d1",
+  "graph_key": "rich_b6f2f7aa5b27f612f391cd28212aff51ad0d42d1",
+  "fail_to_pass": [
+   "test_dataclass_no_attribute"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_pretty.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3454",
+  "repo": "Textualize/rich",
+  "base_commit": "e1e6d745f670ff3df6b8f47377c0a4006cb74066",
+  "graph_key": "rich_e1e6d745f670ff3df6b8f47377c0a4006cb74066",
+  "fail_to_pass": [],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_highlighter.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3471",
+  "repo": "Textualize/rich",
+  "base_commit": "e2a982d5ea747f0deb7f78e8eaa5b4be7d9194cf",
+  "graph_key": "rich_e2a982d5ea747f0deb7f78e8eaa5b4be7d9194cf",
+  "fail_to_pass": [
+   "test_append_tokens"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_text.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3470",
+  "repo": "Textualize/rich",
+  "base_commit": "0ba607dc080c9f102b5ae5346bcdb70d6e9c969d",
+  "graph_key": "rich_0ba607dc080c9f102b5ae5346bcdb70d6e9c969d",
+  "fail_to_pass": [
+   "test_capture_and_record"
+  ],
+  "pass_to_pass": [
+   "test_input"
+  ],
+  "files": [
+   "tests/test_console.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3469",
+  "repo": "Textualize/rich",
+  "base_commit": "c478588f3c228a4e86741a057c42b452d7bc6bce",
+  "graph_key": "rich_c478588f3c228a4e86741a057c42b452d7bc6bce",
+  "fail_to_pass": [
+   "test_table_with_empty_cells"
+  ],
+  "pass_to_pass": [
+   "test_markdown_render"
+  ],
+  "files": [
+   "tests/test_markdown.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3052",
+  "repo": "Textualize/rich",
+  "base_commit": "7a168a27c5097805b3bafa495f35e3955004ff4a",
+  "graph_key": "rich_7a168a27c5097805b3bafa495f35e3955004ff4a",
+  "fail_to_pass": [
+   "test_prompt_str_case_insensitive"
+  ],
+  "pass_to_pass": [
+   "test_prompt_str",
+   "test_prompt_str_default"
+  ],
+  "files": [
+   "tests/test_prompt.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3278",
+  "repo": "Textualize/rich",
+  "base_commit": "4c5d305bb902ce97011666ada19e48d0b27b49e1",
+  "graph_key": "rich_4c5d305bb902ce97011666ada19e48d0b27b49e1",
+  "fail_to_pass": [
+   "test_strip_private_escape_sequences"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_ansi.py"
+  ]
+ },
+ {
+  "instance_id": "rich_2943",
+  "repo": "Textualize/rich",
+  "base_commit": "610fd75c433c3dfcd9c296e8b91363979127b9fa",
+  "graph_key": "rich_610fd75c433c3dfcd9c296e8b91363979127b9fa",
+  "fail_to_pass": [
+   "test_clear_meta_and_links_clears_hash"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_style.py"
+  ]
+ },
+ {
+  "instance_id": "rich_2725",
+  "repo": "Textualize/rich",
+  "base_commit": "577def22dd83b999c5937cb2bf2ed49600943325",
+  "graph_key": "rich_577def22dd83b999c5937cb2bf2ed49600943325",
+  "fail_to_pass": [
+   "test_placement_table_box_elements"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_table.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3105",
+  "repo": "Textualize/rich",
+  "base_commit": "9f620dc50c0008c35e9f8493f198e6e593574a70",
+  "graph_key": "rich_9f620dc50c0008c35e9f8493f198e6e593574a70",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_save_html"
+  ],
+  "files": [
+   "tests/test_console.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3130",
+  "repo": "Textualize/rich",
+  "base_commit": "720800e6930d85ad027b1e9bd0cbb96b5e994ce3",
+  "graph_key": "rich_720800e6930d85ad027b1e9bd0cbb96b5e994ce3",
+  "fail_to_pass": [
+   "test_inline_styles_in_table",
+   "test_inline_styles_with_justification"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_markdown.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3043",
+  "repo": "Textualize/rich",
+  "base_commit": "8a616de8e25db3c93abaaa220c493d80878de69d",
+  "graph_key": "rich_8a616de8e25db3c93abaaa220c493d80878de69d",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_save_html"
+  ],
+  "files": [
+   "tests/test_console.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3067",
+  "repo": "Textualize/rich",
+  "base_commit": "1ad6f73a4d1d3b40ac3f879feccfaad66412bd1d",
+  "graph_key": "rich_1ad6f73a4d1d3b40ac3f879feccfaad66412bd1d",
+  "fail_to_pass": [],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_highlighter.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3006",
+  "repo": "Textualize/rich",
+  "base_commit": "0c8bb032ad3b54a32fdb8a43f5ab457c8cd6dcb1",
+  "graph_key": "rich_0c8bb032ad3b54a32fdb8a43f5ab457c8cd6dcb1",
+  "fail_to_pass": [],
+  "pass_to_pass": [
+   "test_rich_repr",
+   "test_rich_repr_auto",
+   "test_rich_repr_auto_angular"
+  ],
+  "files": [
+   "tests/test_repr.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3064",
+  "repo": "Textualize/rich",
+  "base_commit": "01b85ac116c4635b6ddb8b488be8254be6df2a84",
+  "graph_key": "rich_01b85ac116c4635b6ddb8b488be8254be6df2a84",
+  "fail_to_pass": [
+   "test_partial_table"
+  ],
+  "pass_to_pass": [],
+  "files": [
+   "tests/test_markdown.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3063",
+  "repo": "Textualize/rich",
+  "base_commit": "368e8ad77c95a6bef8f9d332039091d1417296bc",
+  "graph_key": "rich_368e8ad77c95a6bef8f9d332039091d1417296bc",
+  "fail_to_pass": [
+   "test_escape_backslash_end"
+  ],
+  "pass_to_pass": [
+   "test_re_no_match",
+   "test_render_escape"
+  ],
+  "files": [
+   "tests/test_markup.py"
+  ]
+ },
+ {
+  "instance_id": "rich_3061",
+  "repo": "Textualize/rich",
+  "base_commit": "aca9467ec6a482b3bed1ba7d2e3de72271c5f817",
+  "graph_key": "rich_aca9467ec6a482b3bed1ba7d2e3de72271c5f817",
+  "fail_to_pass": [
+   "test_tabs_to_spaces_spans",
+   "test_extend_style"
+  ],
+  "pass_to_pass": [
+   "test_markup_switch"
+  ],
+  "files": [
+   "tests/test_panel.py",
+   "tests/test_text.py"
+  ]
+ }
+]

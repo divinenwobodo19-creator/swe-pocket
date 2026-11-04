@@ -1,0 +1,46 @@
+{
+  "generated_from": 22,
+  "repos": {
+    "python-dotenv": {
+      "instances": 6,
+      "nodes_min": 75,
+      "nodes_max": 76,
+      "nodes_mean": 75.3,
+      "edges_mean": 81.5,
+      "density_mean": 1.082
+    },
+    "prettytable": {
+      "instances": 6,
+      "nodes_min": 211,
+      "nodes_max": 218,
+      "nodes_mean": 214.7,
+      "edges_mean": 29,
+      "density_mean": 0.135
+    },
+    "parso": {
+      "instances": 6,
+      "nodes_min": 602,
+      "nodes_max": 606,
+      "nodes_mean": 603.5,
+      "edges_mean": 231.8,
+      "density_mean": 0.384
+    },
+    "packaging": {
+      "instances": 4,
+      "nodes_min": 578,
+      "nodes_max": 579,
+      "nodes_mean": 578.8,
+      "edges_mean": 568.5,
+      "density_mean": 0.982
+    }
+  },
+  "size_distribution": {
+    "nodes_min": 75,
+    "nodes_p10": 75.0,
+    "nodes_p25": 109.75,
+    "nodes_p50": 217.5,
+    "nodes_p75": 596.25,
+    "nodes_p90": 602.9,
+    "nodes_max": 606
+  }
+}

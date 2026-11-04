@@ -1,0 +1,6 @@
+data/graphs/
+data/embeddings/
+resources/tasks.jsonl
+*.npz
+__pycache__/
+.ipynb_checkpoints/

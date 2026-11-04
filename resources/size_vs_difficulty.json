@@ -1,0 +1,16 @@
+{
+ "joined": 129,
+ "tasks": 129,
+ "pearson": {
+  "nodes_vs_churn": -0.013740296858947025,
+  "nodes_vs_files": 0.11964452634176946,
+  "nodes_vs_problem_words": 0.2571312958990517,
+  "max_depth_vs_churn": 0.1024925266242113
+ },
+ "median_gold_churn": {
+  "fastapi": 19,
+  "rich": 10,
+  "requests": 5,
+  "httpx": 86
+ }
+}

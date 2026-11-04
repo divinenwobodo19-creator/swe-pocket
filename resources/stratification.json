@@ -1,0 +1,46 @@
+{
+  "generated_from": 127,
+  "repos": {
+    "fastapi": {
+      "instances": 67,
+      "nodes_min": 3238,
+      "nodes_max": 4597,
+      "nodes_mean": 3967.5,
+      "edges_mean": 2457.9,
+      "density_mean": 0.622
+    },
+    "rich": {
+      "instances": 47,
+      "nodes_min": 1920,
+      "nodes_max": 2021,
+      "nodes_mean": 1970.2,
+      "edges_mean": 5625.4,
+      "density_mean": 2.855
+    },
+    "requests": {
+      "instances": 12,
+      "nodes_min": 711,
+      "nodes_max": 759,
+      "nodes_mean": 735.2,
+      "edges_mean": 1824.7,
+      "density_mean": 2.482
+    },
+    "httpx": {
+      "instances": 1,
+      "nodes_min": 740,
+      "nodes_max": 740,
+      "nodes_mean": 740,
+      "edges_mean": 1618,
+      "density_mean": 2.186
+    }
+  },
+  "size_distribution": {
+    "nodes_min": 711,
+    "nodes_p10": 1455.6,
+    "nodes_p25": 1958.5,
+    "nodes_p50": 3255.0,
+    "nodes_p75": 3941.5,
+    "nodes_p90": 4333.2,
+    "nodes_max": 4597
+  }
+}
