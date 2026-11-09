@@ -9,7 +9,7 @@ SWE-Pocket makes size a measured, controlled variable: 153 Python tasks across a
 competition) and a **compact** stratum (24 tasks we mined from four small
 libraries), all under one schema and one measurement pipeline.
 
-Submitted to the [Gemma 4 Developer Agent Paper Track](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper)
+Entry for the [Gemma 4 Developer Agent Paper Track](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper)
 (Best New Resource). Paper: [`paper/swe-pocket.md`](paper/swe-pocket.md).
 Reproduction: [public Kaggle notebook](https://www.kaggle.com/code/divinenwobodo19/swe-pocket-reproduction);
 `./rebuild.sh` rebuilds every derived table from the competition data.
