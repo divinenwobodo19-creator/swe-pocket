@@ -11,6 +11,8 @@ libraries), all under one schema and one measurement pipeline.
 
 Submitted to the [Gemma 4 Developer Agent Paper Track](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper)
 (Best New Resource). Paper: [`paper/swe-pocket.md`](paper/swe-pocket.md).
+Reproduction: [public Kaggle notebook](https://www.kaggle.com/code/divinenwobodo19/swe-pocket-reproduction);
+`./rebuild.sh` rebuilds every derived table from the competition data.
 
 ![Figure 1: repository size is three axes](paper/fig1_three_axes.png)
 
@@ -79,7 +81,7 @@ change): `GH_TOKEN=$(gh auth token) python3 scripts/mine_compact.py`, then
 
 ## Licence
 
-- **Code** (`scripts/`, `notebooks/`, `rebuild.sh`): MIT. See [`LICENSE`](LICENSE).
+- **Code** (`scripts/`, `notebooks/`, `rebuild.sh`): Apache-2.0. See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE).
 - **Data and paper** (our tables, compact graphs, task records, figures, text): CC-BY-4.0. See [`LICENSE-DATA`](LICENSE-DATA).
 - **Upstream code** inside the compact task patches stays under its project's own licence:
   `pypa/packaging` (Apache-2.0 or BSD-2-Clause), `jazzband/prettytable` (BSD-3-Clause),

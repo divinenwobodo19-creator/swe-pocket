@@ -82,7 +82,7 @@ This datasheet documents the resource's composition, construction, and limits.
 - **Provided graphs/embeddings are NOT redistributed** — only metrics derived
   from them are reported. They remain under the competition's terms.
 - **Our artifacts** (mined tasks, generated graphs, tooling, derived metric
-  tables) are released under CC-BY-4.0 (data) and MIT (code), with attribution
+  tables) are released under CC-BY-4.0 (data) and Apache-2.0 (code), with attribution
   preserved; upstream code inside compact task patches keeps its own licence
   (see `LICENSE-DATA`).
 - **Who can use it:** anyone; no access restriction on our artifacts.

@@ -303,7 +303,8 @@ pipeline that generalises from the provided repositories to ones we mined. We
 release everything needed to report the size axis in future benchmarks and to
 study it in future agents.
 
-**Code and data:** https://github.com/divinenwobodo19-creator/swe-pocket (code MIT, data CC-BY-4.0).
+**Code and data:** https://github.com/divinenwobodo19-creator/swe-pocket (code Apache-2.0, data CC-BY-4.0).
+**Public notebook:** https://www.kaggle.com/code/divinenwobodo19/swe-pocket-reproduction
 
 ---
 
