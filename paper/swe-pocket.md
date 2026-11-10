@@ -1,4 +1,4 @@
-# SWE-Pocket: A Repository-Size-Stratified Evaluation Resource for Consumer-Hardware Coding Agents
+# SWE-Pocket: A Size-Stratified Evaluation Resource for Local Coding Agents
 
 ## Abstract
 

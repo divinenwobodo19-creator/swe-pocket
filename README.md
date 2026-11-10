@@ -92,7 +92,7 @@ change): `GH_TOKEN=$(gh auth token) python3 scripts/mine_compact.py`, then
 
 ```
 @misc{swepocket2026,
-  title  = {SWE-Pocket: A Repository-Size-Stratified Evaluation Resource for Consumer-Hardware Coding Agents},
+  title  = {SWE-Pocket: A Size-Stratified Evaluation Resource for Local Coding Agents},
   author = {Nwobodo, Divine},
   year   = {2026},
   note   = {Gemma 4 Developer Agent Paper Track, Kaggle},
