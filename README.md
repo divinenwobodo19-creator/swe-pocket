@@ -14,21 +14,25 @@ Entry for the [Gemma 4 Developer Agent Paper Track](https://www.kaggle.com/compe
 Reproduction: [public Kaggle notebook](https://www.kaggle.com/code/divinenwobodo19/swe-pocket-reproduction);
 `./rebuild.sh` rebuilds every derived table from the competition data.
 
-![Figure 1: repository size is three axes](paper/fig1_three_axes.png)
+![Figure 1: raw node count is a biased size measure](paper/fig1_size_dimensions.png)
 
 ## Findings
 
-1. **Repository size is three axes, not one**: *breadth* (nodes), *coupling*
-   (edges per node), and *depth* (longest call chain). They rank repositories
-   differently: `fastapi` is the largest but the least coupled, `rich` is half its
-   size with 4.6× the density and 3× the depth, and the 75-node `python-dotenv` is
-   more densely coupled than the 3,968-node `fastapi`.
-2. **Structure is largely independent of fix size.** Across the 129 large tasks,
-   gold-patch churn correlates with node count at r = −0.014; 71% of tasks touch a
-   single source file, median fix 13 lines (r = +0.20 within the single-file
-   subset, so the signal is weak but not absent).
-3. **The pipeline generalises.** The same graph builder and metrics reproduce
-   the axis disagreement on the mined compact repositories.
+1. **Raw node count is a biased size measure.** In the competition's own graphs,
+   69% of `fastapi`'s 3,968 nodes carry no call edge. Counting only connected
+   nodes puts `rich` at 1,902 against `fastapi`'s 1,235, despite half the raw
+   count. Size is two dimensions: **connected scale** and **coupling**.
+2. **The two dimensions separate.** `rich` has 2.3× the edges, 4.6× the density
+   and 3× the depth of `fastapi`; `requests` has half of `fastapi`'s connected
+   nodes at four times the density. Depth tracks connected scale (repo-level
+   ρ = +0.90), so it is a consequence of scale, not a third axis.
+3. **Structure does not predict fix size.** 71% of tasks touch a single source
+   file, median fix 13 lines. Per repository, |r| ≤ 0.25 for nodes, edges and
+   density; the exception is depth in `requests` (n = 13, r = +0.65).
+4. **The pipeline generalises, and was validated.** The same graph builder and
+   metrics reproduce the pattern on the mined compact repositories. All 24 compact
+   tasks were replayed from source; 21 fail before the gold patch and pass after
+   (see [`VALIDATION.md`](VALIDATION.md)).
 
 No model was run. This is a resource and a structural analysis, not a leaderboard.
 
@@ -43,6 +47,7 @@ No model was run. This is a resource and a structural analysis, not a leaderboar
 | `resources/provenance.*` | Upstream commit/PR provenance for every large-stratum instance |
 | `notebooks/reproduce.ipynb` | Recomputes every number in the paper from the tables above, with no GPU and no downloads |
 | `scripts/` | The full construction and analysis pipeline |
+| `VALIDATION.md` | End-to-end replay of all 24 compact tasks (21/24 base-fail, gold-pass) |
 | `DATASHEET.md` | Composition, collection process, limits, intended uses |
 
 ### What is *not* in this repository

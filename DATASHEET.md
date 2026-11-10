@@ -15,7 +15,7 @@ This datasheet documents the resource's composition, construction, and limits.
 - **Goal:** provide a Python coding-agent evaluation resource that reports
   *repository size* as a measured variable, which standard SWE benchmarks fix by
   construction. Built so that agents on consumer hardware can be evaluated on a
-  resource whose structure decomposes into interpretable axes.
+  resource whose navigable scale and coupling are reported separately.
 - **Creator:** N-Library. The resource combines competition-provided material
   (referenced, not redistributed) with tasks we mined from public repositories.
 - **Funding:** self-funded; no external grant.
@@ -26,10 +26,10 @@ This datasheet documents the resource's composition, construction, and limits.
   gold patch (the maintainer's merged fix), and a test patch (the tests that
   distinguish fixed from unfixed), keyed to a `base_commit` and its code graph.
 - **Total instances:** **153** across two strata:
-  | stratum | tasks | repos | nodes | source |
-  |---|---|---|---|---|
-  | large | 129 | `fastapi` 67, `rich` 48, `requests` 13, `httpx` 1 | 711–4,597 | provided `tasks.jsonl` |
-  | compact | 24 | `packaging`, `prettytable`, `parso`, `python-dotenv` (6 each) | 75–606 | mined by us |
+  | stratum | tasks | repos | raw nodes | connected nodes | source |
+  |---|---|---|---|---|---|
+  | large | 129 | `fastapi` 67, `rich` 48, `requests` 13, `httpx` 1 | 711–4,597 | 654–1,952 | provided `tasks.jsonl` |
+  | compact | 24 | `packaging`, `prettytable`, `parso`, `python-dotenv` (6 each) | 75–606 | 44–250 | mined by us |
 - **What is not included:** no model predictions, no agent trajectories, no
   baseline resolve rates. Model baselines were deliberately out of scope
   (see paper §5).
@@ -38,6 +38,11 @@ This datasheet documents the resource's composition, construction, and limits.
 - **Skew:** the large stratum is dominated by `fastapi` (67/129) and `rich`
   (48/129); the compact stratum is balanced (6/24 each). `httpx` contributes one
   task and is not representative.
+- **Validation:** all 24 compact patch pairs apply cleanly. Replaying each task
+  (test patch at base, run affected tests, gold patch, run again) shows 21/24
+  discriminate. The three exceptions (`parso_227`, `parso_233`, `parso_241`) are
+  version-gating test changes that already pass at base and are marked
+  `"discriminates": false`; exclude them from scoring. Details: `VALIDATION.md`.
 
 ## 3. Collection process
 
@@ -106,14 +111,15 @@ This datasheet documents the resource's composition, construction, and limits.
   test functions. Tasks that only *modify* existing tests are caught by churn,
   not by name. Exact test names require a real pytest run against the snapshots,
   which is out of scope for v1.0.
-- **Correlation is weak, not absent:** pooled structure–churn correlation is ~0
-  (−0.014) but rises to +0.20 within the single-file subset, and a few outlier
-  tasks dominate the tail. Reported in §4.3 of the paper.
+- **Correlation is weak, not absent:** the pooled structure–churn correlation is
+  −0.014, but the sign is positive within every repository. Per-repository
+  |r| ≤ 0.25 for nodes, edges and density; depth in `requests` (n = 13) reaches
+  +0.65. Reported in §4.3 of the paper.
 - **Small compact stratum:** 24 tasks; treat its statistics descriptively.
 - **Single language family:** Python only.
 - **An auditor should check:** the dialogue between the stratum split and the
   selection filter (§3), the F2P heuristic's false-negative rate, and whether the
-  three-axis claim holds on a corpus the resource did not choose.
+  two-dimension claim holds on a corpus the resource did not choose.
 
 ## 9. Ethical considerations
 
