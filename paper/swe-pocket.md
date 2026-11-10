@@ -8,7 +8,8 @@ own machine. Yet no standard benchmark reports repository size as a variable:
 size is fixed by construction and never measured. We introduce SWE-Pocket, a
 size-stratified evaluation resource for Python repositories. It combines the 129
 task instances released with the competition — each with a problem statement,
-gold patch, test patch, and a merged upstream pull request — with 24 tasks we
+gold patch, and test patch, each traced to a merged upstream pull request — with
+24 tasks we
 mine from four deliberately compact libraries under an identical schema.
 Analysing the code graphs of all 153 tasks, we find that raw node count is
 a biased measure of repository size: in `fastapi`, 69% of nodes take part in no
